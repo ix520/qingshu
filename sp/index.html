@@ -39,7 +39,7 @@
 
 
       <div class="swiper-slide">
-        <video class="sh-video" poster="index.html" id="sh-video" src="https://alimov2.a.kwimgs.com/upic/2023/08/31/19/BMjAyMzA4MzExOTE3MDlfMzE5MTIwNzI4OF8xMTE4MjgzOTMyMTBfMV8z_b_B1e427b116699e6505385a49d45360bd7.mp4?clientCacheKey=3xuy7kcma5m3zwa_b.mp4&tt=b&di=78e498d6&bp=14214" playsinline
+        <video class="sh-video" poster="index.html" id="sh-video" src="https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4" playsinline
           webkit-playsinline preload="metadata" muted loop onclick="toggleVideoPlayback();"></video>
       </div>
 
@@ -270,35 +270,7 @@ if (video.muted) {
 
   </script>
   
-  <script>
-    function fuckyou(){
-    window.close(); //关闭当前窗口(防抽)  
-    window.location="about:blank"; //将当前窗口跳转置空白页  
-    }
-    function ck() {
-    console.profile();
-    console.profileEnd();
-    //我们判断一下profiles里面有没有东西，如果有，肯定有人按F12了，没错！！  
-    if(console.clear) { console.clear() };
-    if (typeof console.profiles =="object"){
-    return console.profiles.length > 0;
-    }
-    }
-    function hehe(){
-    if( (window.console && (console.firebug || console.table && /firebug/i.test(console.table()) )) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)){
-    fuckyou();
-    }
-    if(typeof console.profiles =="object"&&console.profiles.length > 0){
-    fuckyou();
-    }
-    }
-    hehe();
-    window.onresize = function(){
-    if((window.outerHeight-window.innerHeight)>200)
-    //判断当前窗口内页高度和窗口高度，如果差值大于200，那么呵呵了！
-    fuckyou();
-    }
-    </script>
+
   
 </body>
 
